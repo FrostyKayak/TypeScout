@@ -72,6 +72,10 @@ public class BulbapediaClient {
         Type baseType1 = Type.fromString(find(BASE_TYPE1, text));
         Type baseType2 = Type.fromString(findOptional(BASE_TYPE2, text));
 
+        if (baseType2 == baseType1) {
+            baseType2 = null;
+        }
+        
         forms.add(new PokemonForm(
                 capitalize(name),
                 baseType1,
@@ -136,3 +140,4 @@ public class BulbapediaClient {
         return s.substring(0, 1).toUpperCase() + s.substring(1).toLowerCase();
     }
 }
+
