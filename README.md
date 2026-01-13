@@ -6,6 +6,7 @@ The user enters a Pokémon name, selects a form or variant if applicable, and Ty
 
 This project is intentionally bare bones and serves as a foundation for a more fully featured Pokémon battle analysis tool in the future.
 
+
 What TypeScout Does
 
 Accepts a Pokémon name as user input
@@ -17,6 +18,7 @@ Supports multiple forms and regional variants
 Displays defensive weaknesses, resistances, and immunities
 
 Displays offensive strengths based on the Pokémon’s typing
+
 
 Why This Project Exists
 
@@ -34,6 +36,7 @@ Handling real world data that is not perfectly uniform
 
 Rather than relying on hard coded Pokémon data, TypeScout pulls live information, which makes it more flexible and realistic than a static lookup table.
 
+
 Technologies Used
 
 Java
@@ -43,6 +46,7 @@ Maven
 Gson for JSON parsing
 
 Bulbapedia MediaWiki API
+
 
 Current Limitations
 
@@ -56,6 +60,7 @@ No GUI or battle simulation yet
 
 These limitations are intentional. The goal was to build a solid core before adding complexity.
 
+
 Future Ideas
 
 JavaFX or Swing interface
@@ -67,6 +72,7 @@ Expanded and fully accurate type effectiveness chart
 Save recent searches
 
 Integration with move based damage calculations
+
 
 Disclaimer
 
