@@ -1,6 +1,7 @@
 # TypeScout
 TypeScout
 
+
 TypeScout is a lightweight Java console app that helps users quickly check Pokémon type matchups.
 The user enters a Pokémon name, selects a form or variant if applicable, and TypeScout displays what that Pokémon is weak against, resistant to, immune to, and offensively strong against.
 
@@ -8,6 +9,7 @@ This project is intentionally bare bones and serves as a foundation for a more f
 
 
 What TypeScout Does
+
 
 Accepts a Pokémon name as user input
 
@@ -21,6 +23,7 @@ Displays offensive strengths based on the Pokémon’s typing
 
 
 Why This Project Exists
+
 
 TypeScout was built as a learning and portfolio project to practice:
 
@@ -39,6 +42,7 @@ Rather than relying on hard coded Pokémon data, TypeScout pulls live informatio
 
 Technologies Used
 
+
 Java
 
 Maven
@@ -49,6 +53,7 @@ Bulbapedia MediaWiki API
 
 
 Current Limitations
+
 
 Console based interface only
 
@@ -63,6 +68,7 @@ These limitations are intentional. The goal was to build a solid core before add
 
 Future Ideas
 
+
 JavaFX or Swing interface
 
 Smarter form matching from user input like Alolan or Hisuian
@@ -75,6 +81,7 @@ Integration with move based damage calculations
 
 
 Disclaimer
+
 
 This project is for educational and portfolio purposes only.
 Pokémon and related content are owned by their respective rights holders.
