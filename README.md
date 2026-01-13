@@ -1,5 +1,5 @@
 # TypeScout
-# TypeScout
+
 
 TypeScout is a lightweight Java console app that helps users quickly check Pokémon type matchups.  
 The user enters a Pokémon name, selects a form or variant if applicable, and TypeScout displays what that Pokémon is weak against, resistant to, immune to, and offensively strong against.
